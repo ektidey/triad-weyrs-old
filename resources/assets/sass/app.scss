@@ -7,3 +7,25 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+#page-ctr {
+    background-color: $triad-bg-light;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#header-title-ctr h1 {
+    font-size: 18px;
+}
+
+#header-image {
+    width: 320px;
+    height: 192px;
+    border: 1px solid $triad-bg-dark;
+    margin: 15px 20px;
+    float: left;
+}
+
+.small {
+    font-size: 11px;
+}
